@@ -12,7 +12,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     loc: path,
     lastmod: new Date().toISOString(),
     priority: 0.7,
-    changefreq: "daily",
+    // changefreq: "daily",
   }))
 
   // Include the site root separately
@@ -20,7 +20,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     loc: CONFIG.link,
     lastmod: new Date().toISOString(),
     priority: 1.0,
-    changefreq: "daily",
+    // changefreq: "daily",
   })
 
   return getServerSideSitemap(ctx, fields)
