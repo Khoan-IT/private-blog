@@ -12,14 +12,14 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `private-blog`,
+      href: "https://github.com/Khoan-IT/private-blog",
     },
   ],
   // blog setting (required)
   blog: {
     title: "DucKhoan-Blog",
-    description: "welcome to morethan-log!",
+    description: "Welcome to DucKhoan-Blog!",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
@@ -69,7 +69,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 21600 * 7, // revalidate time for [slug], index
+  // revalidateTime: 21600 * 7, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
