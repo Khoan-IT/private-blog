@@ -1,31 +1,39 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "DucKhoan",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    name: "Duc Khoan",
+    image: "/avatar.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "AI Researcher",
     bio: "Bring AI to the World",
     email: "duckhoan.work@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    linkedin: "khoan-le",
+    github: "Khoan-IT",
     instagram: "",
   },
   projects: [
     {
-      name: `private-blog`,
-      href: "https://github.com/Khoan-IT/private-blog",
+      name: `Emotional Speech Recognition`,
+      href: "https://github.com/Khoan-IT/ESD_W2V2",
     },
+    {
+      name: `Emotion Detection`,
+      href: "https://github.com/Khoan-IT/emotion_classification",
+    },
+    {
+      name: `AI gRPC Service`,
+      href: "https://github.com/Khoan-IT/es_service"
+    }
   ],
   // blog setting (required)
   blog: {
     title: "DucKhoan-Blog",
     description: "Welcome to DucKhoan-Blog!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    scheme: "light", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://khoan-it.github.io/private-blog",
+  since: 0, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
