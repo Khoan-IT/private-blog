@@ -16,10 +16,6 @@ const CONFIG = {
       href: "https://github.com/Khoan-IT/ESD_W2V2",
     },
     {
-      name: `Emotion Detection`,
-      href: "https://github.com/Khoan-IT/emotion_classification",
-    },
-    {
       name: `AI gRPC Service`,
       href: "https://github.com/Khoan-IT/es_service"
     }
